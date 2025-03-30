@@ -1,0 +1,9 @@
+{
+    "crop_coefficients": {
+        "corn": { "initial": 0.4, "development": 0.8, "mid-season": 1.2, "late-season": 0.7 },
+        "wheat": { "initial": 0.3, "development": 0.7, "mid-season": 1.1, "late-season": 0.6 },
+        "rice": { "initial": 0.5, "development": 1.0, "mid-season": 1.25, "late-season": 0.75 },
+        "soybean": { "initial": 0.35, "development": 0.75, "mid-season": 1.15, "late-season": 0.65 },
+        "potato": { "initial": 0.4, "development": 0.85, "mid-season": 1.1, "late-season": 0.75 }
+    }
+}

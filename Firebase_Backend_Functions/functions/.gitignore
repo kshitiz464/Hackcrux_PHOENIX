@@ -1,0 +1,3 @@
+node_modules/
+*.local
+calculate-adjusted-moisture-initial.js

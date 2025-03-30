@@ -1,0 +1,42 @@
+{
+    "sandy": {
+        "fieldCapacityFraction": 0.10,
+        "wiltingPointFraction": 0.05,
+        "rootZoneDepthMM": 300
+    },
+    "loamy_sand": {
+        "fieldCapacityFraction": 0.12,
+        "wiltingPointFraction": 0.06,
+        "rootZoneDepthMM": 400
+    },
+    "sandy_loam": {
+        "fieldCapacityFraction": 0.20,
+        "wiltingPointFraction": 0.10,
+        "rootZoneDepthMM": 500
+    },
+    "loam": {
+        "fieldCapacityFraction": 0.25,
+        "wiltingPointFraction": 0.12,
+        "rootZoneDepthMM": 600
+    },
+    "silt_loam": {
+        "fieldCapacityFraction": 0.30,
+        "wiltingPointFraction": 0.15,
+        "rootZoneDepthMM": 700
+    },
+    "clay_loam": {
+        "fieldCapacityFraction": 0.35,
+        "wiltingPointFraction": 0.20,
+        "rootZoneDepthMM": 800
+    },
+    "silty_clay": {
+        "fieldCapacityFraction": 0.40,
+        "wiltingPointFraction": 0.25,
+        "rootZoneDepthMM": 900
+    },
+    "clay": {
+        "fieldCapacityFraction": 0.45,
+        "wiltingPointFraction": 0.30,
+        "rootZoneDepthMM": 1000
+    }
+}
