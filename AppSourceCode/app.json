@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "IrrigationApp",
+    "slug": "IrrigationApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo2.png",
+    "splash": {
+      "image": "./assets/images/logo2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#aba45e"
+    },
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.phoenix.agriflow",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#aba45e"
+      },
+      "package": "com.phoenix.agriflow"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d17cb6d7-4105-40dc-8931-e48db98a177d"
+      }
+    }
+  }
+}
